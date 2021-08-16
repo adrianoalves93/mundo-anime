@@ -24,11 +24,17 @@ nav {
     right: 20%;
 }
 
+nav a {
+    color: black;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-decoration: none;
+}
+
 nav li{
 	display: inline;
-	padding: 0px 10px 0px 10px;
-   font-family: 'Press Start 2P', cursive;
-   font-size: 15px;
+
 }
 
 footer {
@@ -40,4 +46,53 @@ footer {
 footer p {
 	font-size: 7px;
     margin: 7px 0px 0px 0px;
+}
+
+
+.texto-principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.texto-principal h2 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem 0;
+    font-size: 57px;
+}
+
+.texto-principal > img {
+    width: 100%;
+    box-shadow: 10px 10px 24px #888888;
+}
+
+#introducao {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 19px auto;
+    line-height: 1.5em;
+    color: #6B6B6B;
+    font-style: italic;
+}
+
+.texto-principal p {
+     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 4px auto;
+    line-height: 1.5em;
+    color: #6B6B6B;    
+}
+
+p strong{
+    color: #ab0b15;
+    font-weight: bold;
+}
+
+#dados {
+    text-align: right;
+    color: #ab0b15;
+    font-weight: bold;
 }
