@@ -1,0 +1,43 @@
+.bloco-cabecalho {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo-cabecalho {
+	width: 36%;
+}
+
+.titulo-principal {
+    font-size: 2.0rem;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 9%;
+    vertical-align: top;
+}
+
+nav {
+	position: absolute;
+    display: inline;
+    top: 19%;
+    right: 20%;
+}
+
+nav li{
+	display: inline;
+	padding: 0px 10px 0px 10px;
+   font-family: 'Press Start 2P', cursive;
+   font-size: 15px;
+}
+
+footer {
+	text-align: center;
+	font-size: 13px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+footer p {
+	font-size: 7px;
+    margin: 7px 0px 0px 0px;
+}
