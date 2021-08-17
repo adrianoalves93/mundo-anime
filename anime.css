@@ -1,0 +1,32 @@
+.listaAnimes {
+    width: 1000px;
+    margin: 8% auto 51px auto;
+    text-align: center;
+ }
+
+.listaAnimes li{
+	display: inline-block;
+    text-align: center;
+    width: 18%;
+    margin: 14px 0.5% 14px 0.5%;
+    vertical-align: top;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    padding: 13px 12px;
+    box-sizing: border-box;
+
+}
+
+.listaAnimes h3{
+	font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    margin: 15px 0;
+}
+
+.listaAnimes p{
+	margin: 1rem auto;
+}
+
+.listaAnimes input{
+	width: 50%;
+}
