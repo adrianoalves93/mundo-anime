@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="anime.css">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<link href="<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -26,8 +27,90 @@
 			</header>
 		</div>
 
+		<main>
 
+			<div class="container">
 
+				<div class="titulo-form">
+					<h4> Formulário de Pesquisa</h4>					
+					<p>ANIME</p>
+				</div>
+
+				<form class="formulario">
+
+					<div class="grupo-form">
+						<label for="nomeSobrenome">Nome e Sobrenome</label>
+						<input type="text" id="nomeSobrenome" class="grupo-input" placeholder="Nome e Sobrenome" required>
+					</div>
+
+					<div class="grupo-form">
+						<label for="email">Email</label>
+						<input type="email" id="email" class="grupo-input" placeholder="email@dominio.com" required>
+					</div>
+
+					<div class="grupo-form">
+						<label for="quantidade-animes">Quantos Animes você já assistiu?</label>
+						<input type="number" id="quantidade-animes" class="grupo-input" min="0" max="99">
+					</div>
+
+					<div class="grupo-form">
+						<legend>Qual seu Anime favorito referente a lista?</legend>
+						<select id="lista" class="grupo-input">
+							<option>Dragon Ball Z</option>
+							<option>One-Punch Man</option>
+							<option>Naruto</option>
+							<option>One Piece</option>
+							<option>Psycho-Pass</option>
+							<option>Ajin</option>
+							<option>Yu Yu Hakusho</option>
+							<option>HunterxHunter</option>
+							<option>Death Note</option>
+							<option>Tenchi Muyo!</option>
+						</select>
+					</div>			
+
+					<div class="grupo-form">
+
+						<legend>Idioma Favorito para Assitir</legend>
+
+						<label class="sub-label"><input type="radio" name="grupo-radio" class="form-radio" value="ingles">Inglês</label>
+
+						<label class="sub-label"><input type="radio" name="grupo-radio" class="form-radio" value="japones">Japonês</label>
+
+						<label class="sub-label"><input type="radio" name="grupo-radio" class="form-radio" value="portugues">Português</label>
+
+						<label class="sub-label"><input type="radio" name="grupo-radio" class="form-radio" value="outro">Outro</label>
+					</div>
+
+					<div class="grupo-form">	
+
+						<legend>Horário que você costuma Assistir</legend>
+
+						<label class="sub-label"><input type="checkbox" name="prefere" class="form-checkbox">Manhã</label>
+
+						<label class="sub-label"><input type="checkbox" name="prefere" class="form-checkbox">Tarde</label>
+
+						<label class="sub-label"><input type="checkbox" name="prefere" class="form-checkbox">Noite</label>
+					</div>	
+
+					<div class="grupo-form">
+
+						<legend>Sugestões de Anime:</legend>
+						<input type="text" class="grupo-input" id="add"><input type="submit" value="Adiconar" id="add-enviar">
+
+						<ul>
+							<li>naruto 1</li>
+							<li>dragooon</li>
+						</ul>					
+					</div>
+
+					<div class="grupo-form">
+						<input type="submit" class="form-enviar" value="Enviar Pesquisa">					
+					</div>
+
+				</form>
+			</div>
+		</main>
 
 
 
