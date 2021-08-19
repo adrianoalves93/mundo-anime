@@ -1,6 +1,6 @@
 .listaAnimes {
     width: 1000px;
-    margin: 8% auto 51px auto;
+    margin: 5% auto 5% auto;
     text-align: center;
  }
 
@@ -14,7 +14,9 @@
     border-radius: 25px;
     padding: 13px 12px;
     box-sizing: border-box;
-
+    color: white;
+    background-image: linear-gradient(to bottom, black, #8e0404, #8e0404, black);
+    box-shadow: 12px 14px 24px #888888;
 }
 
 .listaAnimes h3{
@@ -29,4 +31,9 @@
 
 .listaAnimes input{
 	width: 50%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #d2cdcd;
 }

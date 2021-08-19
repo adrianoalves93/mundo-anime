@@ -1,12 +1,13 @@
 .container {
 	width: 720px;
-	margin: 2rem auto 2rem auto;
+    margin: 4rem auto 4rem auto;
+    box-shadow: -3px -1px 33px -4px #888888;
+    border-color: black;
+    border-radius: 25px;
 }
 
 .formulario {
-	border: solid;
     font-family: 'Source Code Pro', monospace;
-    border-radius: 21px;
     padding: 2rem 1rem;
     color: #6B6B6B;
 }
@@ -67,20 +68,29 @@ input, select{
 }
 
 .form-enviar{
-	text-align: center;
+    text-align: center;
     width: 100%;
+    font-size: 22px;
     margin: 0 auto;
     cursor: pointer;
+    height: 34px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(45deg, black,#8e0404);
 }
 
 #add {
 	display: inline;
     width: 63%;
+
 }
 
 #add-enviar{
 	padding: 0.375rem 0.75rem;
     margin-left: 1rem;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(45deg, black,#8e0404);
 }
 
 ul, li {

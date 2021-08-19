@@ -1,6 +1,11 @@
-.bloco-cabecalho {
-	width: 940px;
-	margin: 0 auto;
+header{
+    background-image: linear-gradient(33deg, #151414,#8e0404,black, #8e0404, black);
+    box-shadow: 10px 10px 24px #888888;
+}
+
+.bloco-cabecalho{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .logo-cabecalho {
@@ -15,6 +20,7 @@
     top: 3rem;
     left: 9%;
     vertical-align: top;
+    color: #ffffff
 }
 
 nav {
@@ -25,7 +31,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: #ffffff;
     padding: 0px 10px 0px 10px;
     font-family: 'Press Start 2P', cursive;
     font-size: 15px;
@@ -35,17 +41,6 @@ nav a {
 nav li{
 	display: inline;
 
-}
-
-footer {
-	text-align: center;
-	font-size: 13px;
-	font-family: 'Press Start 2P', cursive;
-}
-
-footer p {
-	font-size: 7px;
-    margin: 7px 0px 0px 0px;
 }
 
 
@@ -91,8 +86,28 @@ p strong{
     font-weight: bold;
 }
 
+footer {
+    box-shadow: 10px -10px 24px #888888;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(33deg, #151414,#8e0404,black, #8e0404, black);
+}
+
+footer p {
+    font-size: 7px;
+    margin: 7px 0px 0px 0px;
+    color: #ffffff;
+
+}
+
 #dados {
     text-align: right;
     color: #ab0b15;
     font-weight: bold;
+}
+
+footer img{
+    position: relative;
+    top: -19px;
 }
