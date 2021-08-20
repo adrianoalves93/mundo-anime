@@ -19,6 +19,14 @@
     box-shadow: 12px 14px 24px #888888;
 }
 
+.listaAnimes li:hover{
+    border-color: #f09d1a;
+    box-shadow: 12px 14px 24px #f09d1a;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
 .listaAnimes h3{
 	font-family: 'Press Start 2P', cursive;
     font-size: 11px;
@@ -36,4 +44,12 @@
     border-radius: 5px;
     font-size: 15px;
     background: #d2cdcd;
+}
+
+.listaAnimes input:hover{
+    background: #f09d1a;
+    width: 52%;
+    font-variant-position: 17px;
+    font-weight: bolder;
+    transition: 0.3s;
 }

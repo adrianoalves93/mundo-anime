@@ -43,12 +43,12 @@
 
 
 					<div class="grupo-form">
-						<label for="nomeSobrenome">Nome e Sobrenome</label>
+						<label for="nomeSobrenome">Nome e Sobrenome:</label>
 						<input type="text" id="nomeSobrenome" class="grupo-input" placeholder="Nome e Sobrenome" required>
 					</div>
 
 					<div class="grupo-form">
-						<label for="email">Email</label>
+						<label for="email">Email:</label>
 						<input type="email" id="email" class="grupo-input" placeholder="email@dominio.com" required>
 					</div>
 
@@ -75,7 +75,7 @@
 
 					<div class="grupo-form">
 
-						<legend>Idioma Favorito para Assitir</legend>
+						<legend>Idioma Favorito para Assitir:</legend>
 
 						<label class="sub-label"><input type="radio" name="grupo-radio" class="form-radio" value="ingles">Inglês</label>
 
@@ -88,7 +88,7 @@
 
 					<div class="grupo-form">	
 
-						<legend>Horário que você costuma Assistir</legend>
+						<legend>Horário que você costuma Assistir:</legend>
 
 						<label class="sub-label"><input type="checkbox" name="prefere" class="form-checkbox">Manhã</label>
 
@@ -100,15 +100,15 @@
 					<div class="grupo-form">
 
 						<legend>Sugestões de Anime:</legend>
-						<input type="text" class="grupo-input" id="add"><input type="submit" value="Adiconar" id="add-enviar">
+						<input type="text" class="grupo-input" id="add" data-input><input type="submit" value="Adiconar" id="add-enviar" data-botao>
 
-						<ul>
-							<li>naruto 1</li>
-							<li>dragooon</li>
+
+						<ul data-list>
+							<li class="task"></li>
 						</ul>					
 					</div>
 
-					<div class="grupo-form">
+					<div>
 						<input type="submit" class="form-enviar" value="Enviar Pesquisa">					
 					</div>
 
@@ -127,6 +127,7 @@
 
 	</footer>
 	
+	<script src="listaDeTarefa.js"></script>
 
 </body>
 </html>

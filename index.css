@@ -40,13 +40,21 @@ nav a {
 
 nav li{
 	display: inline;
+    font-size: 20px;
 
+}
+
+nav a:hover{
+    color: #f09d1a;
+    font-size: 16px;
+    transition: 0.5s;
+    text-decoration: underline;
 }
 
 
 .texto-principal {
     width: 940px;
-    margin: 0 auto;
+    margin: 0 auto 3% auto;
 }
 
 .texto-principal h2 {

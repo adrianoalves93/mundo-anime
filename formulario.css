@@ -10,6 +10,7 @@
     font-family: 'Source Code Pro', monospace;
     padding: 2rem 1rem;
     color: #6B6B6B;
+    background: #f1f1f152;
 }
 
 .titulo-form {
@@ -26,7 +27,7 @@
 
 
 label, legend{
-	margin-bottom: 0.4rem;
+	margin-bottom: 0.7rem;
 	display: flex;
 	font-size: 23px;
 	font-weight: bold;
@@ -57,6 +58,15 @@ input, select{
  	box-sizing: border-box;
   	background-color: #fff;
   	background-clip: padding-box;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    height: 2.375rem;
+}
+
+.grupo-input:focus {
+  border-color: #8e0404;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #8e0404;
 }
 
 .form-radio,
@@ -76,8 +86,19 @@ input, select{
     height: 34px;
     font-weight: bold;
     color: white;
-    background-image: linear-gradient(45deg, black,#8e0404);
+    background-image: linear-gradient(45deg, black,#8e0404, black);
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 12px -2px 19px #888888;
 }
+
+.form-enviar:hover{
+  box-shadow: 12px -2px 19px #f09d1a;
+  border-color: #f09d1a;
+  color: #f09d1a;
+  transition: 0.3s;
+}
+
 
 #add {
 	display: inline;
@@ -90,11 +111,25 @@ input, select{
     margin-left: 1rem;
     font-weight: bold;
     color: white;
-    background-image: linear-gradient(45deg, black,#8e0404);
+    background-image: linear-gradient(45deg, black,#8e0404, black);
+    border-radius: 0.25rem;
 }
 
-ul, li {
+#add-enviar:hover{
+    box-shadow: 12px -2px 19px #f09d1a;
+  border-color: #f09d1a;
+  color: #f09d1a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.list {
 	font-size: 1.200rem;
 	font-weight: unset;
 	margin: 0.6rem 0;
+}
+
+.task {
+  font-size:  1.200rem;
+  margin-bottom: 11px;
 }
