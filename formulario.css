@@ -133,3 +133,30 @@ input, select{
   font-size:  1.200rem;
   margin-bottom: 11px;
 }
+
+@media screen and (max-width: 480px) { 
+  .container{
+    width: 88%;
+  }
+
+  .grupo-form{
+    text-align: center;
+  }
+
+  .titulo-form{
+    font-size: 32px;
+  }
+
+  label, legend {
+    font-size: 20px;
+  }
+  
+  #legend-add{
+    display: inline;
+  }
+
+  #add{
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+}

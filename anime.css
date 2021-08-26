@@ -53,3 +53,16 @@
     font-weight: bolder;
     transition: 0.3s;
 }
+
+
+@media screen and (max-width: 480px) { 
+    .listaAnimes{
+        width: auto;
+        padding: 0 3px;
+    }
+
+    .listaAnimes li{
+        width:unset;
+    }
+
+    }

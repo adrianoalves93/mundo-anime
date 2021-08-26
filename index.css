@@ -119,3 +119,51 @@ footer img{
     position: relative;
     top: -19px;
 }
+
+@media screen and (max-width: 480px) { 
+    .bloco-cabecalho, .texto-principal{
+        width: auto;
+        text-align: center;
+        padding: 0 8px 12px 8px;
+    }
+
+    .logo-cabecalho{
+        width: 100%;
+    }
+    .titulo-principal{
+        text-align: center;
+        top: unset;
+        left: unset;
+        font-size: 22px;
+        display: list-item;
+        padding-bottom: 1rem;
+    }
+
+    nav {
+        position: relative;
+        display: unset;
+        top: unset;
+        right: unset;
+        text-align: center;
+    }
+
+    nav ul {
+        padding-bottom: 1rem;
+    }
+
+    nav a {
+        font-size: 12px;
+}
+
+    .texto-principal h2{
+    font-size: 23px;
+    padding: 0px 5px;
+}
+
+    .texto-principal img{
+        width: 80%;
+    }
+
+}
+
+
