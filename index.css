@@ -6,6 +6,7 @@ header{
 .bloco-cabecalho{
     width: 940px;
     margin: 0 auto;
+    position: relative;
 }
 
 .logo-cabecalho {
@@ -26,8 +27,8 @@ header{
 nav {
 	position: absolute;
     display: inline;
-    top: 19%;
-    right: 20%;
+    top: 63%;
+    right: 7%;
 }
 
 nav a {
