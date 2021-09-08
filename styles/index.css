@@ -1,0 +1,170 @@
+header{
+    background-image: linear-gradient(33deg, #151414,#8e0404,black, #8e0404, black);
+    box-shadow: 10px 10px 24px #888888;
+}
+
+.bloco-cabecalho{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-cabecalho {
+	width: 36%;
+}
+
+.titulo-principal {
+    font-size: 2.0rem;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 9%;
+    vertical-align: top;
+    color: #ffffff
+}
+
+nav {
+	position: absolute;
+    display: inline;
+    top: 63%;
+    right: 7%;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav li{
+	display: inline;
+    font-size: 20px;
+
+}
+
+nav a:hover{
+    color: #f09d1a;
+    font-size: 16px;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+
+.texto-principal {
+    width: 940px;
+    margin: 0 auto 3% auto;
+}
+
+.texto-principal h2 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem 0;
+    font-size: 57px;
+}
+
+.texto-principal > img {
+    width: 100%;
+    box-shadow: 10px 10px 24px #888888;
+}
+
+#introducao {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 19px auto;
+    line-height: 1.5em;
+    color: #6B6B6B;
+    font-style: italic;
+}
+
+.texto-principal p {
+     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 4px auto;
+    line-height: 1.5em;
+    color: #6B6B6B;    
+}
+
+p strong{
+    color: #ab0b15;
+    font-weight: bold;
+}
+
+footer {
+    box-shadow: 10px -10px 24px #888888;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(33deg, #151414,#8e0404,black, #8e0404, black);
+}
+
+footer p {
+    font-size: 7px;
+    margin: 7px 0px 0px 0px;
+    color: #ffffff;
+
+}
+
+#dados {
+    text-align: right;
+    color: #ab0b15;
+    font-weight: bold;
+}
+
+footer img{
+    position: relative;
+    top: -19px;
+}
+
+@media screen and (max-width: 480px) { 
+    .bloco-cabecalho, .texto-principal{
+        width: auto;
+        text-align: center;
+        padding: 0 8px 12px 8px;
+    }
+
+    .logo-cabecalho{
+        width: 100%;
+    }
+    .titulo-principal{
+        text-align: center;
+        top: unset;
+        left: unset;
+        font-size: 22px;
+        display: list-item;
+        padding-bottom: 1rem;
+    }
+
+    nav {
+        position: relative;
+        display: unset;
+        top: unset;
+        right: unset;
+        text-align: center;
+    }
+
+    nav ul {
+        padding-bottom: 1rem;
+    }
+
+    nav a {
+        font-size: 12px;
+}
+
+    .texto-principal h2{
+    font-size: 23px;
+    padding: 0px 5px;
+}
+
+    .texto-principal img{
+        width: 80%;
+    }
+
+}
+
+
