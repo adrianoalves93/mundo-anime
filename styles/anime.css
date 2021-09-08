@@ -1,0 +1,68 @@
+.listaAnimes {
+    width: 1000px;
+    margin: 5% auto 5% auto;
+    text-align: center;
+ }
+
+.listaAnimes li{
+	display: inline-block;
+    text-align: center;
+    width: 18%;
+    margin: 14px 0.5% 14px 0.5%;
+    vertical-align: top;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    padding: 13px 12px;
+    box-sizing: border-box;
+    color: white;
+    background-image: linear-gradient(to bottom, black, #8e0404, #8e0404, black);
+    box-shadow: 12px 14px 24px #888888;
+}
+
+.listaAnimes li:hover{
+    border-color: #f09d1a;
+    box-shadow: 12px 14px 24px #f09d1a;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.listaAnimes h3{
+	font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    margin: 15px 0;
+}
+
+.listaAnimes p{
+	margin: 1rem auto;
+}
+
+.listaAnimes input{
+	width: 50%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #d2cdcd;
+}
+
+.listaAnimes input:hover{
+    background: #f09d1a;
+    width: 52%;
+    font-variant-position: 17px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 480px) { 
+    .listaAnimes{
+        width: auto;
+        padding: 0 3px;
+    }
+
+    .listaAnimes li{
+        width:unset;
+    }
+
+    }
